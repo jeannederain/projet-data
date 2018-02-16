@@ -41,6 +41,7 @@ async function start() {
     })
         try {
             await server.start();
+            console.log("hello")
         }
         catch (err) {
             console.log(err);
